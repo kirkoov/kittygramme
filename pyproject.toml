@@ -26,6 +26,10 @@ webcolors-stubs = "^0.0.3"
 django-cleanup = "^8.1.0"
 mypy = "^1.9.0"
 mypy-extensions = "^1.0.0"
+python-lsp-server = {extras = ["all"], version = "^1.11.0"}
+python-lsp-black = "^2.0.0"
+mypy-ls = "^0.5.1"
+pyls-isort = "^0.2.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -35,6 +39,8 @@ flake8 = "^7.0.0"
 flake8-isort = "^6.1.1"
 ruff = "^0.3.5"
 
+[tool.black]
+line-length = 79
 
 [tool.isort]
 profile = "black"

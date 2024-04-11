@@ -1,5 +1,8 @@
+from typing import Any
+
 from django.contrib.auth import get_user_model
 from django.db import models
+from django.db.models import ManyToManyField, Model
 
 User = get_user_model()
 
@@ -15,10 +18,16 @@ class Cat(models.Model):
     name = models.CharField(max_length=16)
     color = models.CharField(max_length=16)
     birth_year = models.IntegerField()
-    owner = models.ForeignKey(User, related_name="cats", on_delete=models.CASCADE)
-    achievements = models.ManyToManyField(Achievement, through="AchievementCat")
+    owner = models.ForeignKey(
+        User, related_name="cats", on_delete=models.CASCADE
+    )
+    achievements: ManyToManyField[Model | Model | Any, Model | Model | Any] = (
+        models.ManyToManyField(Achievement, through="AchievementCat")
+    )
 
-    image = models.ImageField(upload_to="cats/images/", null=True, default=None)
+    image = models.ImageField(
+        upload_to="cats/images/", null=True, default=None
+    )
 
     def __str__(self):
         return self.name
