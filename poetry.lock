@@ -451,6 +451,20 @@ files = [
 ]
 
 [[package]]
+name = "django-types"
+version = "0.19.1"
+description = "Type stubs for Django"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "django_types-0.19.1-py3-none-any.whl", hash = "sha256:b3f529de17f6374d41ca67232aa01330c531bbbaa3ac4097896f31ac33c96c30"},
+    {file = "django_types-0.19.1.tar.gz", hash = "sha256:5ae7988612cf6fbc357b018bbc3b3a878b65e04275cc46e0d35d66a708daff12"},
+]
+
+[package.dependencies]
+types-psycopg2 = ">=2.9.21.13"
+
+[[package]]
 name = "djangorestframework"
 version = "3.15.1"
 description = "Web APIs for Django, made easy."
@@ -1553,6 +1567,17 @@ files = [
 ]
 
 [[package]]
+name = "types-psycopg2"
+version = "2.9.21.20240311"
+description = "Typing stubs for psycopg2"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-psycopg2-2.9.21.20240311.tar.gz", hash = "sha256:722945dffa6a729bebc660f14137f37edfcead5a2c15eb234212a7d017ee8072"},
+    {file = "types_psycopg2-2.9.21.20240311-py3-none-any.whl", hash = "sha256:2e137ae2b516ee0dbaab6f555086b6cfb723ba4389d67f551b0336adf4efcf1b"},
+]
+
+[[package]]
 name = "types-pytz"
 version = "2024.1.0.20240203"
 description = "Typing stubs for pytz"
@@ -1775,4 +1800,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "9c1d5f6b563eb05591d825ebd5db33f766d10b4ace6e3d17841c33c9fc5bb49c"
+content-hash = "cbd2455d3bd345d2d13fe69d427720c2d7b937c72e09e11d03972c3f3223d4db"
