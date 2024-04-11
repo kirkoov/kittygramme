@@ -348,6 +348,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-cleanup"
+version = "8.1.0"
+description = "Deletes old files."
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-cleanup-8.1.0.tar.gz", hash = "sha256:70df905076a44e7a111b31198199af633dee08876e199e6dce36ca8dd6b8b10f"},
+    {file = "django_cleanup-8.1.0-py2.py3-none-any.whl", hash = "sha256:7903873ea73b3f7e61e055340d27dba49b70634f60c87a573ad748e172836458"},
+]
+
+[[package]]
 name = "django-stubs"
 version = "4.2.7"
 description = "Mypy stubs for Django"
@@ -1306,4 +1317,4 @@ webcolors = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "2ed1405d991ad49c3d44caf21c3bee3680c97a1532e276924556845a4832b3c5"
+content-hash = "7f82561d93160120a83f13d8824861545c0f9ea202516c3ae2754d3160862615"
