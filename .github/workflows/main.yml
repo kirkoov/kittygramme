@@ -161,5 +161,5 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Деплой Kittygram to WebSpace выполнен!
+        message: Kittygram been redeployed to WebSpace.
 

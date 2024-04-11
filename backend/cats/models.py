@@ -21,8 +21,8 @@ class Cat(models.Model):
     owner = models.ForeignKey(
         User, related_name="cats", on_delete=models.CASCADE
     )
-    achievements: ManyToManyField[Model | Model | Any, Model | Model | Any] = (
-        models.ManyToManyField(Achievement, through="AchievementCat")
+    achievements = models.ManyToManyField(
+        Achievement, through="AchievementCat"
     )
 
     image = models.ImageField(
