@@ -6,7 +6,7 @@ volumes:
   media_volume:
 services:
   db:
-    image: postgres:13
+    image: postgres:14.11
     restart: always
     env_file: .env
     volumes:
