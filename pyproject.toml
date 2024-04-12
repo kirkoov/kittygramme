@@ -30,7 +30,6 @@ python-lsp-server = {extras = ["all"], version = "^1.11.0"}
 python-lsp-black = "^2.0.0"
 mypy-ls = "^0.5.1"
 pyls-isort = "^0.2.2"
-django-types = "^0.19.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -39,6 +38,7 @@ isort = "^5.13.2"
 flake8 = "^7.0.0"
 flake8-isort = "^6.1.1"
 ruff = "^0.3.5"
+django-types = "^0.19.1"
 
 [tool.black]
 line-length = 79

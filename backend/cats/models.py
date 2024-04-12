@@ -2,26 +2,26 @@ from typing import Any
 
 from django.contrib.auth import get_user_model
 from django.db import models
-from django.db.models import ManyToManyField, Model
+from django.db.models import ManyToManyField
 
 User = get_user_model()
 
 
-class Achievement(models.Model):
+class Achievement(models.Model):  # type: ignore
     name = models.CharField(max_length=64)
 
     def __str__(self):
         return self.name
 
 
-class Cat(models.Model):
+class Cat(models.Model):  # type: ignore
     name = models.CharField(max_length=16)
     color = models.CharField(max_length=16)
     birth_year = models.IntegerField()
     owner = models.ForeignKey(
         User, related_name="cats", on_delete=models.CASCADE
     )
-    achievements = models.ManyToManyField(
+    achievements: ManyToManyField | Any = models.ManyToManyField(
         Achievement, through="AchievementCat"
     )
 
