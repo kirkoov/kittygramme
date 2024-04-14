@@ -41,8 +41,7 @@ jobs:
         DB_PORT: 5432
       run: |
         python -m flake8 backend/
-        ls
-#        pytest
+        pytest
 
 #  build_and_push_backend_to_docker_hub:
 #    name: Build & push KG backend Docker img to DockerHub
