@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.10.12
 WORKDIR /app
 ENV PIP_ROOT_USER_ACTION=ignore
 RUN pip install --upgrade pip
