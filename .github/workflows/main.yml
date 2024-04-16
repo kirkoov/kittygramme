@@ -149,6 +149,7 @@ jobs:
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
           cd kittygram
+#          docker compose -f docker-compose.production.yml --progress=quiet pull
           docker compose -f docker-compose.production.yml pull
 #          docker compose -f docker-compose.production.yml --progress=quiet down -v
 #          docker compose -f docker-compose.production.yml --progress=quiet up -d
