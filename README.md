@@ -4,7 +4,7 @@
 
 - This project uses YandexPracticum's React template (frontend) & serves for your favourite cats to be added & boasted of online;
 - The motivation behind is better learn this backend dev stack & include it in my portfolio;
-- Once modified locally & pushed to its GitHub repo, this project moves on along the yaml-based orchestration lines to rebuild the docker images accordingly & auto-redeploy the project to the live server; the associated Telegram bot will notify me about the deploy;
+- Once modified locally & pushed to its GitHub repo, this project moves on along the yaml-based orchestration lines to rebuild the docker images accordingly & auto-redeploy the project to the live server; the associated Telegram bot will notify me about the deployment;
 - If you're passionate about sharing your feline pet's pix online & seeing same from other cat people, please head for the [website](https://kittygramme.zapto.org/), sign up & on.
 
 Tools & stack: #Python #Yaml #API #Docker #Nginx #PostgreSQL #Gunicorn #Djoser #JWT #TelegramBot #CI-CD #SublimeText #Flake8 #Ruff #Black #Mypy #DjDT
@@ -21,13 +21,14 @@ Tools & stack: #Python #Yaml #API #Docker #Nginx #PostgreSQL #Gunicorn #Djoser #
 
 - Register with a username & a password, use them to log in right away
 - Upload your pet's pic under 3 Mb in size & see them there
-- Spread the word))
+- Spread the word
 - [Back to TOC](#table-of-contents)
 
 ## Credits
 
 - Fork from YandexPracticum's repo [here](https://github.com/yandex-praktikum/kittygram_final)
-- If interested, follow their [courses](https://practicum.yandex.ru/catalog/programming/?from=main_header-programming_button)
+- If interested, here are their [courses](https://practicum.yandex.
+  ru/catalog/programming/?from=main_header-programming_button)
 - [Back to TOC](#table-of-contents)
 
 ## Licence
@@ -42,4 +43,5 @@ Add a pic & some details on your pet & make it stand out; edit or delete if need
 
 Don't hesitate to contact in case you'd like to contribute. We'd both be better off reading the [Contributor Covenant](https://www.contributor-covenant.org/) which is a standard to start with. [Back to TOC](#table-of-contents)
 
-## Authors: kirkoov (Django backend), YandexPracticum (React frontend)
+## Authors
+kirkoov (Django backend), YandexPracticum (React frontend)
