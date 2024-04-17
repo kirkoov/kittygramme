@@ -26,7 +26,7 @@ for dir_name in (BACKEND_DIR_NAME, FRONTEND_DIR_NAME, NGINX_DIR_NAME):
 
 @pytest.fixture(scope="session")
 def backend_dir_info() -> tuple[Path, str]:
-    return (BASE_DIR / BACKEND_DIR_NAME, BACKEND_DIR_NAME)
+    return BASE_DIR / BACKEND_DIR_NAME, BACKEND_DIR_NAME
 
 
 @pytest.fixture(scope="session")
