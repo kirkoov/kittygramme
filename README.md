@@ -27,8 +27,7 @@ Tools & stack: #Python #Yaml #API #Docker #Nginx #PostgreSQL #Gunicorn #Djoser #
 ## Credits
 
 - Fork from YandexPracticum's repo [here](https://github.com/yandex-praktikum/kittygram_final)
-- If interested, here are their [courses](https://practicum.yandex.
-  ru/catalog/programming/?from=main_header-programming_button)
+- If interested, here are their [courses](https://practicum.yandex.ru/catalog/programming/?from=main_header-programming_button)
 - [Back to TOC](#table-of-contents)
 
 ## Licence
@@ -44,4 +43,4 @@ Add a pic & some details on your pet & make it stand out; edit or delete if need
 Don't hesitate to contact in case you'd like to contribute. We'd both be better off reading the [Contributor Covenant](https://www.contributor-covenant.org/) which is a standard to start with. [Back to TOC](#table-of-contents)
 
 ## Authors
-kirkoov (Django backend), YandexPracticum (React frontend)
+Kirill Koovshinov (Django backend), YandexPracticum (React frontend)

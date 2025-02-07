@@ -5,6 +5,7 @@ description = "A mini social for cat enthusiasts: add you pet's pic & some detai
 authors = ["Kirill Koovshinov <k.koovshinov@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
